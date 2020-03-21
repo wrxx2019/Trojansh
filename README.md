@@ -20,11 +20,11 @@ apt-get install wget   ##Debian Ubuntu 安装 wget
 本代码分解三部分：
 
 
-wget -N --no-check-certificate "https://raw.githubusercontent.com/V2RaySSR/Trojansh/master/trojan1.sh" && chmod +x trojan1.sh && ./trojan1.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/wrxx2019/Trojansh/master/trojan1.sh" && chmod +x trojan1.sh && ./trojan1.sh
 
-wget -N --no-check-certificate "https://raw.githubusercontent.com/V2RaySSR/Trojansh/master/trojan2.sh" && chmod +x trojan2.sh && ./trojan2.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/wrxx2019/Trojansh/master/trojan2.sh" && chmod +x trojan2.sh && ./trojan2.sh
 
-wget -N --no-check-certificate "https://raw.githubusercontent.com/V2RaySSR/Trojansh/master/trojan3.sh" && chmod +x trojan3.sh && ./trojan3.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/wrxx2019/Trojansh/master/trojan3.sh" && chmod +x trojan3.sh && ./trojan3.sh
 
 安装成功后访问 https://你的域名 看是否有SSL证书锁和网页
 客户端如不能连接，重启服务：systemctl restart trojan
