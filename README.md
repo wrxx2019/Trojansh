@@ -47,4 +47,5 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/wrxx2019/Troja
 端口：443
 
 ==========================================================
-
+卸载：
+wget -N --no-check-certificate -q -O trojan_install.sh "https://raw.githubusercontent.com/wrxx2019/Trojansh/master/trojan_install.sh" && chmod +x trojan_install.sh && bash trojan_install.sh
