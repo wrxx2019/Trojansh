@@ -46,6 +46,7 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/wrxx2019/Troja
 密码：
 端口：443
 
+systemctl restart trojan nginx
 ==========================================================
 
 卸载：
