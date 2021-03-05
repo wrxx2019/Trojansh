@@ -120,9 +120,7 @@ EOF
 	blue "      开始下载安装官方Trojan最新版本"
 	green "=========================================="
 	sleep 3s
-                wget -N --no-check-certificate "https://raw.githubusercontent.com/wrxx2019/Trojansh/master/trojan-quickstart.sh"
-                chmod +x /root/trojan-quickstart.sh
-	sudo bash -c /root/trojan-quickstart.sh
+        sudo bash -c "$(wget -O- https://raw.githubusercontent.com/wrxx2019/Trojansh/master/trojan-quickstart.sh)"
 	systemctl enable trojan
 	green "========================================================"
 	blue "本次脚本安装完成，现在进行检测"
